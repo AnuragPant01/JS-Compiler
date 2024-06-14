@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Compiler</title>
+    <meta name="description" content="A simple and modern JavaScript compiler with autocomplete and live execution.">
+    <meta name="keywords" content="JavaScript, Compiler, Online, Editor, Code">
+    <meta name="author" content="Anurag Pant">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ext-language_tools.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Compiler</h1>
+        <button onclick="runJS()">Run JavaScript</button>
+    </header>
+    <div id="main-container">
+        <div id="editor-container">
+            <div id="js-editor" class="editor"></div>
+        </div>
+        <div id="output-container">
+            <div id="output"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
